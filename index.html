@@ -8,51 +8,21 @@
 
 <link rel="stylesheet" href="style.css">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 <link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
 </head>
 
 <body>
 
-<!-- Loader -->
-
 <div id="loader">
-
-<div class="loader-circle"></div>
-
-<h1>Loading...</h1>
-
+    <div class="spinner"></div>
+    <h2>Loading Portfolio...</h2>
 </div>
-
-<!-- Cursor -->
-
-<div class="cursor"></div>
-
-<div class="cursor2"></div>
-
-<!-- Background -->
-
-<div class="background">
-
-<span></span>
-<span></span>
-<span></span>
-<span></span>
-<span></span>
-<span></span>
-<span></span>
-
-</div>
-
-<!-- Navbar -->
 
 <header>
-
-<nav>
 
 <div class="logo">
 
@@ -60,33 +30,23 @@ Rifat<span>.</span>
 
 </div>
 
-<ul>
+<nav>
 
-<li><a href="#home">Home</a></li>
+<a href="#home">Home</a>
 
-<li><a href="#about">About</a></li>
+<a href="#about">About</a>
 
-<li><a href="#skills">Skills</a></li>
+<a href="#skills">Skills</a>
 
-<li><a href="#projects">Projects</a></li>
+<a href="#projects">Projects</a>
 
-<li><a href="#contact">Contact</a></li>
-
-</ul>
-
-<div class="menu">
-
-<i class="fa-solid fa-bars"></i>
-
-</div>
+<a href="#contact">Contact</a>
 
 </nav>
 
 </header>
 
-<!-- Hero -->
-
-<section id="home">
+<section class="hero" id="home">
 
 <div class="hero-text">
 
@@ -94,15 +54,12 @@ Rifat<span>.</span>
 
 <h1>Rifat Musaddik Romeo</h1>
 
-<h2>
-
-<span class="typing"></span>
-
-</h2>
+<h2><span id="typing"></span></h2>
 
 <p>
 
-I'm a passionate Web Developer who loves creating modern websites with beautiful animations and unique user experiences.
+Creative Web Developer from Bangladesh.
+I love building beautiful websites with modern UI, animations and smooth user experience.
 
 </p>
 
@@ -110,7 +67,7 @@ I'm a passionate Web Developer who loves creating modern websites with beautiful
 
 <a href="#contact" class="btn">
 
-Contact Me
+Hire Me
 
 </a>
 
@@ -130,7 +87,7 @@ GitHub
 
 <a href="https://www.facebook.com/justy.rifat">
 
-<i class="fab fa-facebook"></i>
+<i class="fab fa-facebook-f"></i>
 
 </a>
 
@@ -152,13 +109,11 @@ GitHub
 
 <div class="hero-image">
 
-<img src="assets/profile.jpg" alt="Rifat">
+<img src="assets/profile.jpg">
 
 </div>
 
 </section>
-
-<!-- About -->
 
 <section id="about">
 
@@ -168,19 +123,18 @@ About Me
 
 </h2>
 
-<div class="about-box">
+<div class="about-card">
 
 <img src="assets/profile.jpg">
 
 <div>
 
-<h3>Who am I?</h3>
+<h3>Who Am I?</h3>
 
 <p>
 
-Hello! I'm <b>Rifat Musaddik Romeo</b>, a creative student and web developer from Bangladesh.
-
-I enjoy building modern websites, animations and UI designs.
+I'm Rifat Musaddik Romeo, a passionate Web Developer and UI Designer.
+I enjoy creating premium websites with smooth animations and modern design.
 
 </p>
 
@@ -210,6 +164,14 @@ I enjoy building modern websites, animations and UI designs.
 
 </div>
 
+<div>
+
+<h4>GitHub</h4>
+
+<p>github.com/rifat487</p>
+
+</div>
+
 </div>
 
 </div>
@@ -217,6 +179,186 @@ I enjoy building modern websites, animations and UI designs.
 </div>
 
 </section>
+
+<section id="skills">
+
+<h2 class="title">
+
+My Skills
+
+</h2>
+
+<div class="skill">
+
+<div class="label">
+
+HTML
+
+<span>95%</span>
+
+</div>
+
+<div class="bar">
+
+<div class="fill html"></div>
+
+</div>
+
+</div>
+
+<div class="skill">
+
+<div class="label">
+
+CSS
+
+<span>90%</span>
+
+</div>
+
+<div class="bar">
+
+<div class="fill css"></div>
+
+</div>
+
+</div>
+
+<div class="skill">
+
+<div class="label">
+
+JavaScript
+
+<span>80%</span>
+
+</div>
+
+<div class="bar">
+
+<div class="fill js"></div>
+
+</div>
+
+</div>
+
+<div class="skill">
+
+<div class="label">
+
+GitHub
+
+<span>92%</span>
+
+</div>
+
+<div class="bar">
+
+<div class="fill github"></div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2 class="title">
+
+Projects
+
+</h2>
+
+<div class="project-grid">
+
+<div class="card">
+
+<h3>Portfolio Website</h3>
+
+<p>
+
+Modern animated personal portfolio.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>T-Shirt Design</h3>
+
+<p>
+
+Creative clothing design showcase.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Future Projects</h3>
+
+<p>
+
+More awesome projects coming soon...
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="title">
+
+Contact Me
+
+</h2>
+
+<div class="contact-box">
+
+<p>
+
+<i class="fab fa-whatsapp"></i>
+
+01741062062
+
+</p>
+
+<p>
+
+<i class="fab fa-facebook"></i>
+
+facebook.com/justy.rifat
+
+</p>
+
+<p>
+
+<i class="fab fa-github"></i>
+
+github.com/rifat487
+
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 Rifat Musaddik Romeo • All Rights Reserved
+
+</p>
+
+</footer>
 
 <script src="script.js"></script>
 
